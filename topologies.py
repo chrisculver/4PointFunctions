@@ -7,8 +7,8 @@ def diagram_time_order(total_diags,log=False):
         top = []
         d_str='d_' + str(i) + ':  '
         for p in d.props:
-            d_str+=p.tf + '->' + p.ti + '   '
-            top.append([p.tf.split('_')[1],p.ti.split('_')[1]])
+            d_str+=p.tf[0:2] + '->' + p.ti[0:2] + '   '
+            top.append([p.tf[0:3].split('_')[1],p.ti[0:3].split('_')[1]])
         diagrams[i]=top
         if(log):
             print(d_str)

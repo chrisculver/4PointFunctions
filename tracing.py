@@ -10,8 +10,10 @@ def diagram_as_trace_string(d):
 
     # Start with the first prop.
     s+=traced_prop_name(tst.props[0])
-
+    
     lastProp=copy.deepcopy(tst.props[0])
+    startSpin=lastProp.left_indices.s
+    startColor=lastProp.left_indices.c
     lastSpin=lastProp.right_indices.s
     lastColor=lastProp.right_indices.c
 
@@ -39,13 +41,33 @@ def diagram_as_trace_string(d):
                 lastColor=p.right_indices.c
                 tst.props.remove(p)
             
-        #elif p.left_indices == lastSpin:
-        #    s+=traced_prop_name(p)
-        #    lastSpin=p.right_indices.s
+            #elif p.left_indices.s == lastSpin:
+            #    s+=traced_prop_name(p)
+            #    lastSpin=p.right_indices.s
         
         if tst.props==[] and tst.commuting==[]:
             more_tracing=False
+    
+        if lastSpin==startSpin and lastColor==startColor and len(tst.props)>0:
+            s+='\\right]'
+            s+='\\text{tr}\\left['
+            s+=traced_prop_name(tst.props[0])
+    
+            lastProp=copy.deepcopy(tst.props[0])
+            startSpin=lastProp.left_indices.s
+            startColor=lastProp.left_indices.c
+            lastSpin=lastProp.right_indices.s
+            lastColor=lastProp.right_indices.c
 
+            tst.props.remove(tst.props[0])
+    
         if s==sStart:
+            print('\n')
+            for p in tst.props:
+                print(p)
+            for c in tst.commuting:
+                print(c)
+            print('lastSpin={}, lastColor={}'.format(lastSpin, lastColor))
+            print('s={}'.format(s))
             raise ValueError('s didnt change after iterating over all props and commuting objs')
     return s+'\\right]'
