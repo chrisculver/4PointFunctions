@@ -4,7 +4,7 @@ def traced_prop_name(p):
     return str(p.name)+'('+p.ti+', '+p.tf+')'
 
 def diagram_as_trace_string(d):
-    tst = copy.deepcopy(d)
+    tst=copy.deepcopy(d)
 
     s='\\text{tr}\\left['
 
