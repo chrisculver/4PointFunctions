@@ -4,7 +4,8 @@ def latexStr(gamma):
         return tmp[0] + '_{' + tmp[1] + '_{' + gamma.indices[0] + gamma.indices[1] + '}}'
     else:
         return str(tmp)
-  
+
+
 def platexStr(p):
     return p.name + '(' + p.ti.replace('t','x') + p.ti + '\mid ' + p.tf.replace('t','x') + p.tf + ')' + '_{\\substack{' + p.left_indices.s + '\\\\' + p.left_indices.c + '}' +  '\\substack{' + p.right_indices.s + '\\\\' + p.right_indices.c + '}}'
     
