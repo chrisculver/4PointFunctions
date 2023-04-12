@@ -115,23 +115,28 @@ class ProtonDiagram:
                 print("  traces=",traces)
                 raise ValueError("spin didn't change")
 
-            
-
         tst=str(pd0.coef)
         for elem in pd0.color_objs:
             tst+=str(elem)
+
+        endInTrace=False
         for i,elem in enumerate(spinProd):
             for t in traces:
+                if i==t[1]:
+                    if i!=len(spinProd)-1:
+                        tst+="\\right]"
+                    else:
+                        endInTrace=True
                 if i==t[0]:
                     tst+="\\text{tr}\\left["
+                
                     
             if type(elem) is WickContractions.corrs.propagator.FullPropagator:
                 tst+=str(elem.name)+'('+elem.ti+', '+elem.tf+')_{'+elem.left_indices.c+','+elem.right_indices.c+'}'
             else:
                 tst+=str(elem.name+" ")
-            
-            for t in traces:
-                if i==t[1]:
-                    tst+="\\right]"
+
+            if endInTrace:
+                tst+="\\right]"
 
         return tst
