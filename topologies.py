@@ -39,12 +39,6 @@ def name_topologies(topList):
             if d in permutations(top):
                 topList[idx]=label
 
-
-
-
-
-
-
 # ref topologies from Dr.Lee's notes.
 refTopologies={}
 refTopologies['A']=[['1','0'],['0','2'],['2','3'],['3','1']]
