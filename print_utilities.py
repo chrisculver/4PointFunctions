@@ -5,10 +5,28 @@ def latexStr(gamma):
     else:
         return str(tmp)
 
-
+# prop latex string
 def platexStr(p):
     return p.name + '(' + p.ti.replace('t','x') + p.ti + '\mid ' + p.tf.replace('t','x') + p.tf + ')' + '_{\\substack{' + p.left_indices.s + '\\\\' + p.left_indices.c + '}' +  '\\substack{' + p.right_indices.s + '\\\\' + p.right_indices.c + '}}'
     
+def proplatexStrSpaceTime(p):
+    return p.name + '(' + p.ti.replace('t','x') + ',' + p.tf.replace('t','x') + ')' + '_{\\substack{' + p.left_indices.s + '\\\\' + p.left_indices.c + '}' +  '\\substack{' + p.right_indices.s + '\\\\' + p.right_indices.c + '}}'
+    
+
+def proton_diagram_str(d):
+    s=str(d.coef)+' '
+    for c in d.commuting:
+        s+=str(c)
+    for p in d.props:
+        s+=proplatexStrSpaceTime(p)
+
+    s+='\\\\'
+
+    return s
+
+
+
+
 
 def diagram_as_latex_str(d,i):
     #if(i==1 or i==6):
@@ -20,6 +38,7 @@ def diagram_as_latex_str(d,i):
         tmp+=latexStr(c)
     s+=tmp+'\\\\'
     return s
+
 
 def labelled_diagram_as_latex_str(d,i,label):
     s=''
