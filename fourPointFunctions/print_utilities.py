@@ -24,6 +24,17 @@ def proton_diagram_str(d):
 
     return s
 
+def proton_diagram_str_no_epsilon(d):
+    s=str(d.coef)+' '
+    for c in d.commuting:
+        if c.name!="\\epsilon":
+            s+=str(c)
+    for p in d.props:
+        s+=proplatexStrSpaceTime(p)
+
+    s+='\\\\'
+
+    return s
 
 
 

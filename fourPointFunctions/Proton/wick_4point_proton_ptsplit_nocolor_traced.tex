@@ -1,0 +1,496 @@
+\beqs
+d_{0}^{A}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{1}^{A}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{12}^{A}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{13}^{A}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{24}^{A}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{25}^{A}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{36}^{A}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{37}^{A}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{48}^{A}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{49}^{A}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{60}^{A}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{61}^{A}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{72}^{A}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{73}^{A}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{84}^{A}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{85}^{A}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{97}^{A}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} \right]\\
+d_{102}^{A}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{103}^{A}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1-\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{107}^{A}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{109}^{A}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} \right]\\
+d_{114}^{A}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{115}^{A}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1-\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{119}^{A}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{121}^{A}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} \right]\\
+d_{126}^{A}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{127}^{A}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1+\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{131}^{A}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{133}^{A}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} \right]\\
+d_{138}^{A}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+\eeqs
+\beqs
+d_{139}^{A}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1+\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{143}^{A}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{144}^{A}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{145}^{A}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{148}^{A}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_1, t_0)_{c_4,a'}(1-\gamma_{\nu})^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_1)_{a,c_3}\Gamma \right]\\
+d_{154}^{A}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{156}^{A}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{157}^{A}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{160}^{A}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_1, t_0)_{c_4,a'}(1-\gamma_{\nu})^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_1)_{a,c_3}\Gamma \right]\\
+d_{166}^{A}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{168}^{A}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{169}^{A}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{172}^{A}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_1, t_0)_{c_4,a'}(1+\gamma_{\nu})^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_1)_{a,c_3}\Gamma \right]\\
+d_{178}^{A}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{180}^{A}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{181}^{A}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{184}^{A}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_1, t_0)_{c_4,a'}(1+\gamma_{\nu})^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_1)_{a,c_3}\Gamma \right]\\
+d_{190}^{A}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{3}^{B}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{4}^{B}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{10}^{B}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{21}^{B}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{27}^{B}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{28}^{B}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{34}^{B}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{45}^{B}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{51}^{B}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{52}^{B}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{58}^{B}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{69}^{B}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+\eeqs
+\beqs
+d_{75}^{B}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\\
+d_{76}^{B}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{82}^{B}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{93}^{B}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{192}^{B}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{201}^{B}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{204}^{B}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{213}^{B}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{216}^{B}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{225}^{B}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{228}^{B}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{237}^{B}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{6}^{C}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) \right]\\
+d_{14}^{C}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{17}^{C}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{19}^{C}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{30}^{C}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) \right]\\
+d_{38}^{C}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{41}^{C}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{43}^{C}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{54}^{C}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) \right]\\
+d_{62}^{C}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{65}^{C}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{67}^{C}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{78}^{C}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) \right]\\
+d_{86}^{C}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{89}^{C}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\\
+d_{91}^{C}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{194}^{C}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma S_{d}(t_3, t_1)_{b,c_3}(1-\gamma_{\nu}) \right]\\
+d_{203}^{C}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+\eeqs
+\beqs
+d_{206}^{C}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma S_{d}(t_3, t_1)_{b,c_3}(1-\gamma_{\nu}) \right]\\
+d_{215}^{C}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{218}^{C}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma S_{d}(t_3, t_1)_{b,c_3}(1+\gamma_{\nu}) \right]\\
+d_{227}^{C}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{230}^{C}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma S_{d}(t_3, t_1)_{b,c_3}(1+\gamma_{\nu}) \right]\\
+d_{239}^{C}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\\
+d_{9}^{D}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{22}^{D}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) \right]\\
+d_{33}^{D}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{46}^{D}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) \right]\\
+d_{57}^{D}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{70}^{D}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) \right]\\
+d_{81}^{D}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{94}^{D}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) \right]\\
+d_{197}^{D}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{198}^{D}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) \right]\\
+d_{209}^{D}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{210}^{D}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1-\gamma_{\nu}) \right]\\
+d_{221}^{D}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{222}^{D}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) \right]\\
+d_{233}^{D}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{234}^{D}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_2)_{c_4,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_1)_{c_2,c_3}(1+\gamma_{\nu}) \right]\\
+d_{2}^{E}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{5}^{E}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{7}^{E}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{11}^{E}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{15}^{E}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{16}^{E}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{18}^{E}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{20}^{E}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+\eeqs
+\beqs
+d_{26}^{E}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{29}^{E}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{31}^{E}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{35}^{E}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{39}^{E}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{40}^{E}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{42}^{E}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{44}^{E}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{50}^{E}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{53}^{E}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{55}^{E}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{59}^{E}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{63}^{E}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{64}^{E}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{66}^{E}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{68}^{E}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{74}^{E}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{77}^{E}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{79}^{E}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{83}^{E}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{87}^{E}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{88}^{E}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{90}^{E}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{92}^{E}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{96}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1-\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{98}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{100}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{101}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{104}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{106}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+\eeqs
+\beqs
+d_{108}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1-\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{110}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{112}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{113}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{116}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{118}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{120}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1+\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{122}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{124}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{125}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{128}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1-\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{130}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{132}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1+\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{134}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{136}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{137}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_2)_{a,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{140}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_2)_{c,c_1}(1+\gamma_{\mu}) S_{u}(t_2, t_0)_{c_2,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{142}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{146}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{147}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{149}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{151}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{152}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{155}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{158}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{159}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{161}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{163}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{164}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1-\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{167}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+\eeqs
+\beqs
+d_{170}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{171}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{173}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{175}^{E}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{176}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{179}^{E}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{182}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{183}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{185}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{187}^{E}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_3, t_1)_{a,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{188}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_1)_{c,c_3}(1+\gamma_{\nu}) S_{u}(t_1, t_0)_{c_4,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{191}^{E}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{193}^{E}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1-\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{195}^{E}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{200}^{E}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{202}^{E}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{205}^{E}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1-\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{207}^{E}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{212}^{E}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1-\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{214}^{E}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{217}^{E}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1+\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{219}^{E}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1-\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{224}^{E}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\\
+d_{226}^{E}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1-\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{229}^{E}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_3, t_1)_{b,c_3}(1+\gamma_{\nu}) S_{d}(t_1, t_0)_{c_4,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\\
+d_{231}^{E}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_3, t_2)_{b,c_1}(1+\gamma_{\mu}) S_{d}(t_2, t_0)_{c_2,b'}\Gamma^{\widetilde{T}} S_{u}^{\widetilde{T}}(t_3, t_0)_{a,a'}\Gamma \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{236}^{E}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_1, t_0)_{c_4,b'}(1+\gamma_{\nu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_1)_{b,c_3}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\\
+d_{238}^{E}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_2, t_0)_{c_2,b'}(1+\gamma_{\mu})^{\widetilde{T}} S_{d}^{\widetilde{T}}(t_3, t_2)_{b,c_1}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{8}^{F}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{23}^{F}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+\eeqs
+\beqs
+d_{32}^{F}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{47}^{F}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{56}^{F}&=-4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{71}^{F}&=4.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{80}^{F}&=4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{95}^{F}&=-4.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{99}^{F}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{105}^{F}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{111}^{F}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{117}^{F}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{123}^{F}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{129}^{F}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{135}^{F}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{141}^{F}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{u}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{150}^{F}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{153}^{F}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{162}^{F}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{165}^{F}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{174}^{F}&=2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{177}^{F}&=-2.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{186}^{F}&=-2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{189}^{F}&=2.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{u}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{196}^{F}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{199}^{F}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{208}^{F}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{211}^{F}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}(t_1,t_1+\hat{
+u_4})_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1-\gamma_{\nu}) \right]\\
+d_{220}^{F}&=-1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{223}^{F}&=1.0U_{\mu}(t_2,t_2+\hat{\mu_4})_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1-\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+d_{232}^{F}&=1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\text{tr}\left[S_{u}(t_3, t_0)_{a,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} \right]\\
+d_{235}^{F}&=-1.0U_{\mu}^{\dagger}(t_2+\hat{\mu_4},t_2)_{c_1 c_2}U_{\nu}^{\dagger}(t_1+\hat{
+u_4},t_1)_{c_3 c_4}\epsilon_{a b c}\epsilon_{a' b' c'}S_{u}(t_3, t_0)_{c,a'}\Gamma S_{d}^{\widetilde{T}}(t_3, t_0)_{b,b'}\Gamma^{\widetilde{T}} S_{u}(t_3, t_0)_{a,c'}\text{tr}\left[S_{d}(t_2, t_2)_{c_2,c_1}(1+\gamma_{\mu}) \right]\text{tr}\left[S_{d}(t_1, t_1)_{c_4,c_3}(1+\gamma_{\nu}) \right]\\
+\eeqs

@@ -14,7 +14,8 @@ class ProtonDiagram:
 
     def __init__(self, diagram):
         self.coef = diagram.coef 
-        self.color_objs = [elem for elem in diagram.commuting if elem.name=="\\epsilon"]
+        self.color_objs = [elem for elem in diagram.commuting if elem.name=="\\epsilon" or elem.name[0]=='U']
+        self.gauge_links = [elem for elem in diagram.commuting]
         self.spin_objs = [elem for elem in diagram.commuting if elem not in self.color_objs]
         self.props = diagram.props
 
@@ -46,6 +47,8 @@ class ProtonDiagram:
         startIdx=0
         #curSpin=pd0.props[0].right_indices.s
         #pd0.props.pop(0)
+
+        
 
         more_tracing = True 
 
