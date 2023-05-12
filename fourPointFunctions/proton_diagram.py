@@ -120,7 +120,8 @@ class ProtonDiagram:
 
         tst=str(pd0.coef)
         for elem in pd0.color_objs:
-            tst+=str(elem)
+            if elem.name[0]=='U':
+                tst+=str(elem)
 
         endInTrace=False
         for i,elem in enumerate(spinProd):
